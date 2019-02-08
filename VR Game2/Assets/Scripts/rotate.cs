@@ -20,4 +20,8 @@ public class rotate : MonoBehaviour {
     {
         rotating = r;
     }
+    public void move()
+    {
+        this.gameObject.transform.Translate(1, 0, 0);
+    }
 }
