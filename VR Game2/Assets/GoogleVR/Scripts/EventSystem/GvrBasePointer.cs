@@ -131,11 +131,11 @@ public abstract class GvrBasePointer : MonoBehaviour, IGvrControllerInputDeviceR
     [Tooltip("Optional: Use a camera other than Camera.main.")]
     public Camera overridePointerCamera;
 
-
+#if UNITY_EDITOR
     /// Determines if the rays used for raycasting will be drawn in the editor.
     [Tooltip("Determines if the rays used for raycasting will be drawn in the editor.")]
     public bool drawDebugRays = false;
- // UNITY_EDITOR
+#endif  // UNITY_EDITOR
 
     /// Convenience function to access what the pointer is currently hitting.
     public RaycastResult CurrentRaycastResult
@@ -224,7 +224,7 @@ public abstract class GvrBasePointer : MonoBehaviour, IGvrControllerInputDeviceR
 
             GvrControllerButton buttonDown = 0;
             GvrControllerButton buttonUp = 0;
-
+//#if !UNITY_EDITOR
             // Cardboard button events come through as mouse button 0 and are
             // mapped to TouchPadButton.
             if (Input.GetMouseButtonDown(0))
@@ -236,7 +236,7 @@ public abstract class GvrBasePointer : MonoBehaviour, IGvrControllerInputDeviceR
             {
                 buttonUp |= GvrControllerButton.TouchPadButton;
             }
-
+//#endif
             if (ControllerInputDevice != null)
             {
                 buttonDown |= ControllerInputDevice.ButtonsDown;
