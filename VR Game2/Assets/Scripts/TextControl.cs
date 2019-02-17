@@ -18,15 +18,15 @@ public class TextControl : MonoBehaviour {
         {
             if (S1)
             {
-                texth.GetComponent<Text>().text = "Objective: Find the switch";
+                texth.GetComponent<Text>().text = "Objective: ESCAPE";
             }
             else if (S2)
             {
-                texth.GetComponent<Text>().text = "Objective: Look Around";
+                texth.GetComponent<Text>().text = "Objective: ESCAPE";
             }
             else if (S3)
             {
-                texth.GetComponent<Text>().text = "Welcome to Space";
+                texth.GetComponent<Text>().text = "Objective: ESCAPE";
             }
             else
             {
