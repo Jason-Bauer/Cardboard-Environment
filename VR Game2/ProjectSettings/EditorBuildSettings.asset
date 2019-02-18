@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MindF.unity
     guid: c18596249627ba1469a6f90ea561778f
+  - enabled: 1
+    path: Assets/Scenes/Horror.unity
+    guid: df76e8b05655ed84ead3e05f3c299862
   m_configObjects: {}
