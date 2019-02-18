@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class door : MonoBehaviour {
 
@@ -14,11 +15,12 @@ public class door : MonoBehaviour {
 	void Update () {
 		
 	}
-    public void opensesame()
+    public void opensesame(int load)
     {
         if (manager.GetComponent<GM>().hasKey)
         {
             this.gameObject.SetActive(false);
+            SceneManager.LoadScene(load);
         }
     }
 }
