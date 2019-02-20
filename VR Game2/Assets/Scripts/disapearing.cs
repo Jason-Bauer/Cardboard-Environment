@@ -5,7 +5,7 @@ using UnityEngine;
 public class disapearing : MonoBehaviour {
     public Camera cam;
     float timer = 0;
-    bool swapped = true;
+    public bool swapped = true;
     bool canswap = true;
 	// Use this for initialization
 	void Start () {
