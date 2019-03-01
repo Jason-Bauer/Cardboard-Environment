@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Horror.unity
     guid: df76e8b05655ed84ead3e05f3c299862
+  - enabled: 1
+    path: Assets/Scenes/weeb.unity
+    guid: 3b774dd4c8d2fc24899462ded775261b
   m_configObjects: {}
