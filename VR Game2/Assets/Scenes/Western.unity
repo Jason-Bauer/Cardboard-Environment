@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 08d33eb2245e6bb46be7fea9152cbf76
+  m_OcclusionCullingData: {fileID: 36300000, guid: 822781f7be1026f4e85fe97a4fba70be,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -38,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -128,7 +129,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &7433566
 Transform:
@@ -205,7 +206,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &10919784
 Transform:
@@ -285,7 +286,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &15676015
 BoxCollider:
@@ -406,7 +407,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &47506030
 Transform:
@@ -545,6 +546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.649
@@ -589,6 +594,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!1 &75908219
@@ -607,7 +616,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &75908220
 Transform:
@@ -685,7 +694,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &107760108
 BoxCollider:
@@ -770,6 +779,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
       propertyPath: m_Name
       value: piano
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 571f3cc6cf641c8498e3eae32bc2ee83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -910,7 +923,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &277046953
 Transform:
@@ -1032,7 +1045,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &280792734
 Transform:
@@ -1109,7 +1122,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &290607544
 Transform:
@@ -1181,6 +1194,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: piano_chair
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 37129b55b0dbbce4c94f09c44f686c66, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37129b55b0dbbce4c94f09c44f686c66, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.685
@@ -1243,7 +1260,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &318387518
 Transform:
@@ -1320,7 +1337,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &322397998
 Transform:
@@ -1397,7 +1414,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &337294649
 Transform:
@@ -1475,7 +1492,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &360165731
 Transform:
@@ -1556,6 +1573,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1307965440}
     m_Modifications:
+    - target: {fileID: 100000, guid: 7fc4482dfe616a346aff153e50571f54, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7fc4482dfe616a346aff153e50571f54, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.7648634
@@ -1626,7 +1647,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &422997799
 Transform:
@@ -1703,7 +1724,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &443194463
 MeshRenderer:
@@ -1781,7 +1802,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &469190282
 MeshRenderer:
@@ -1860,7 +1881,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &472184546
 Transform:
@@ -1951,7 +1972,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &503505482
 BoxCollider:
@@ -2036,6 +2057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_L1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.328
@@ -2111,7 +2136,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &510893744
 Transform:
@@ -2242,6 +2267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_cola_color_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1833911611821210, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.009616717
@@ -2298,6 +2327,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1856593017827706, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
 --- !u!4 &568675171 stripped
@@ -2316,6 +2349,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_Name
       value: Barrel_L1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2386,6 +2423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_red_wine_color_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1782630920681592, guid: 0061c892b9b32ec46a82abdce86cd040, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4704851361381436, guid: 0061c892b9b32ec46a82abdce86cd040, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.12494336
@@ -2442,6 +2483,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1619431655661804, guid: 0061c892b9b32ec46a82abdce86cd040, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0061c892b9b32ec46a82abdce86cd040, type: 3}
 --- !u!4 &627573274 stripped
@@ -2466,7 +2511,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &666056323
 Transform:
@@ -2544,7 +2589,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &677559103
 BoxCollider:
@@ -2638,7 +2683,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &711365460
 BoxCollider:
@@ -2820,7 +2865,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &714176255
 Transform:
@@ -2893,6 +2938,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_Name
       value: Barrel_L1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2968,7 +3017,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &738880280
 MeshRenderer:
@@ -3041,6 +3090,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_L1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.75
@@ -3110,6 +3163,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_red_wine_color_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1378386091579306, guid: 88673c0edbd665848b6e83fead8c66c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4504085371408030, guid: 88673c0edbd665848b6e83fead8c66c5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.045393772
@@ -3166,6 +3223,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1613883438206844, guid: 88673c0edbd665848b6e83fead8c66c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88673c0edbd665848b6e83fead8c66c5, type: 3}
 --- !u!4 &784564373 stripped
@@ -3190,7 +3251,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &807744656
 Transform:
@@ -3268,7 +3329,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &845734456
 BoxCollider:
@@ -3353,6 +3414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1202142091014386, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4959179880025698, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.978961
@@ -3397,6 +3462,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1883103178700484, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
 --- !u!1 &854636924
@@ -3415,7 +3484,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &854636925
 Transform:
@@ -3487,6 +3556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Barrel_L1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.328
@@ -3555,6 +3628,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_Name
       value: Barrel_L1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3625,6 +3702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.968528
@@ -3669,6 +3750,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!1 &1030493310
@@ -3688,7 +3773,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &1030493311
 BoxCollider:
@@ -3774,6 +3859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9
@@ -3818,6 +3907,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!1 &1054604212
@@ -3837,7 +3930,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &1054604213
 BoxCollider:
@@ -3922,6 +4015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_white_wine_color_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1740800178679210, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4950153310883960, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.013307267
@@ -3978,6 +4075,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1460230750235808, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 3}
 --- !u!4 &1078672101 stripped
@@ -4003,7 +4104,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1089670207
 Transform:
@@ -4094,7 +4195,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &1106296568
 BoxCollider:
@@ -4226,7 +4327,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1117281987
 Transform:
@@ -4303,7 +4404,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &1151529036
 MeshRenderer:
@@ -4375,6 +4476,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_Name
       value: Barrel_L1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4450,7 +4555,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &1161243018
 MeshRenderer:
@@ -4528,7 +4633,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1194947315
 Transform:
@@ -4618,7 +4723,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1211958633
 Transform:
@@ -4708,7 +4813,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &1257454757
 MeshRenderer:
@@ -4781,6 +4886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_champagne_color_1
       objectReference: {fileID: 0}
+    - target: {fileID: 1875032750658116, guid: 99b15049619aba348bc855efa7827843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4454696700752722, guid: 99b15049619aba348bc855efa7827843, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.12194294
@@ -4837,6 +4946,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1728359048348282, guid: 99b15049619aba348bc855efa7827843, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99b15049619aba348bc855efa7827843, type: 3}
 --- !u!4 &1257567191 stripped
@@ -4861,7 +4974,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1279310767
 Transform:
@@ -4935,6 +5048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_red_wine_color_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1782630920681592, guid: 0061c892b9b32ec46a82abdce86cd040, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4704851361381436, guid: 0061c892b9b32ec46a82abdce86cd040, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.039996117
@@ -4991,6 +5108,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1619431655661804, guid: 0061c892b9b32ec46a82abdce86cd040, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0061c892b9b32ec46a82abdce86cd040, type: 3}
 --- !u!4 &1280270827 stripped
@@ -5009,6 +5130,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_Name
       value: Barrel_L1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5085,7 +5210,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &1307965437
 BoxCollider:
@@ -5181,7 +5306,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &1324192682
 BoxCollider:
@@ -5271,7 +5396,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1338706331
 Transform:
@@ -5348,7 +5473,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1347804263
 Transform:
@@ -5420,6 +5545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.742
@@ -5464,6 +5593,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!1001 &1443701822
@@ -5476,6 +5609,10 @@ PrefabInstance:
     - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_Name
       value: BP_beer_color_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5533,6 +5670,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2418749
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!1001 &1449632881
@@ -5545,6 +5686,10 @@ PrefabInstance:
     - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_Name
       value: BP_beer_color_1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5590,6 +5735,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!1 &1460407481
@@ -5610,7 +5759,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1460407482
 Transform:
@@ -5727,6 +5876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_cola_color_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1833911611821210, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.16212232
@@ -5783,6 +5936,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1856593017827706, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 3}
 --- !u!4 &1474273295 stripped
@@ -5807,7 +5964,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1498753105
 Transform:
@@ -5886,7 +6043,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1522420417
 Transform:
@@ -5963,7 +6120,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1532144571
 Transform:
@@ -6040,7 +6197,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1535397324
 Transform:
@@ -6113,6 +6270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1202142091014386, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4959179880025698, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.10923597
@@ -6169,6 +6330,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1883103178700484, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
 --- !u!4 &1561724650 stripped
@@ -6187,6 +6352,10 @@ PrefabInstance:
     - target: {fileID: 1726205648425790, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 3}
       propertyPath: m_Name
       value: BP_white_wine_color_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1726205648425790, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4537283535069962, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6244,6 +6413,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1018890835745716, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 3}
 --- !u!4 &1580646136 stripped
@@ -6262,6 +6435,10 @@ PrefabInstance:
     - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_Name
       value: BP_beer_color_1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6307,6 +6484,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!1 &1590287872
@@ -6326,7 +6507,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1590287873
 Transform:
@@ -6417,7 +6598,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1609731562
 Transform:
@@ -6494,7 +6675,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1656676927
 Transform:
@@ -6568,6 +6749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WWGPistol_0
       objectReference: {fileID: 0}
+    - target: {fileID: 124344, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 468740, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.538
@@ -6624,6 +6809,30 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 10.43866
       objectReference: {fileID: 0}
+    - target: {fileID: 194352, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 137386, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 132086, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 112880, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 150380, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 170700, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d970922f1aa657c448a0761a9ee6420f, type: 3}
 --- !u!1 &1666131208
@@ -6643,7 +6852,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &1666131209
 BoxCollider:
@@ -6734,7 +6943,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1667424424
 Transform:
@@ -6819,6 +7028,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1202142091014386, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4959179880025698, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.277
@@ -6863,6 +7076,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1883103178700484, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
 --- !u!1001 &1716869159
@@ -6875,6 +7092,10 @@ PrefabInstance:
     - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_Name
       value: BP_beer_color_1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6920,6 +7141,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!4 &1741284928 stripped
@@ -6944,7 +7169,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1757226836
 Transform:
@@ -7023,7 +7248,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1765081715
 Transform:
@@ -7100,7 +7325,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &1791858946
 MeshRenderer:
@@ -7172,6 +7397,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_Name
       value: Barrel_L1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d333b2b8135241f41a00ba9bb152f234, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7266,7 +7495,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1832329350
 Transform:
@@ -7356,7 +7585,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1866408106
 Transform:
@@ -7433,7 +7662,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1880186797
 Transform:
@@ -7513,7 +7742,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!65 &1881498195
 BoxCollider:
@@ -7598,6 +7827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.33680296
@@ -7654,6 +7887,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!4 &1911125121 stripped
@@ -7672,6 +7909,10 @@ PrefabInstance:
     - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_Name
       value: BP_beer_color_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7717,6 +7958,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!1 &1922491033
@@ -7735,7 +7980,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1922491034
 Transform:
@@ -7809,6 +8054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1202142091014386, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4959179880025698, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.277
@@ -7853,6 +8102,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1883103178700484, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 3}
 --- !u!1001 &1932891599
@@ -7865,6 +8118,10 @@ PrefabInstance:
     - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_Name
       value: BP_beer_color_1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7922,6 +8179,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!4 &1932891600 stripped
@@ -7946,7 +8207,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &1937307485
 MeshRenderer:
@@ -8024,7 +8285,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &1993227432
 Transform:
@@ -8103,7 +8364,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &1994114965
 MeshRenderer:
@@ -8181,7 +8442,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &2009753285
 Transform:
@@ -8258,7 +8519,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &2027087723
 MeshRenderer:
@@ -8336,7 +8597,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &2028295438
 Transform:
@@ -8408,6 +8669,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BP_beer_color_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.08890115
@@ -8464,6 +8729,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3932066
       objectReference: {fileID: 0}
+    - target: {fileID: 1580486417562842, guid: ac18017692e94344896239e6fc57f757, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 3}
 --- !u!4 &2143140772 stripped
@@ -8488,7 +8757,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &3642648635072019787
 Transform:
@@ -8582,7 +8851,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!23 &6337070265438865464
 MeshRenderer:
