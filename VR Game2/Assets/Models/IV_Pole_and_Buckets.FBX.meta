@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: bde247e04190c584c91843bf147faaae
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Basic Wall Exterior - Brick and CMU on MTL. Stud [190762]
+    100002: Basic Wall Exterior - Brick and CMU on MTL. Stud [190763]
+    100004: Basic Wall Exterior - Brick and CMU on MTL. Stud [190764]
+    100006: Basic Wall Exterior - Brick and CMU on MTL. Stud [190765]
+    100008: Camera001
+    100010: Camera002
+    100012: Camera003
+    100014: Camera004
+    100016: Clinton IV Stand 5 leg PORTABLE [188307]
+    100018: Compass001
+    100020: Daylight001
+    100022: Floor Floor - Vinyl 1 [181833]
+    100024: Floor Floor - Vinyl 2 [181864]
+    100026: Floor Wood Joist 10" - Ceramic Tile [181732]
+    100028: //RootNode
+    100030: Project 3.rvt
+    100032: S0000000042F7F740_0
+    100034: S0000000042F7F7A8_0
+    100036: S0000000042F7FA80_0
+    100038: S0000000042F7FC88_0
+    100040: S0000000042F7FD58_0
+    100042: S0000000042F7FDC0_0
+    100044: S0000000042F7FFC8_0
+    100046: S0000000042F80030_0
+    100048: S0000000042F80098_0
+    100050: S0000000042F80238_0
+    100052: S0000000042F80370_0
+    100054: S0000000042F803D8_0
+    100056: Sky002
+    100058: Sun002
+    100060: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    100062: UMF SS8350 Bucket Only 13qt UMF SS8350 Bucket Only 13qt [186915]
+    100064: UMF SS8350 Bucket UMF SS8350 Bucket [185336]
+    400000: Basic Wall Exterior - Brick and CMU on MTL. Stud [190762]
+    400002: Basic Wall Exterior - Brick and CMU on MTL. Stud [190763]
+    400004: Basic Wall Exterior - Brick and CMU on MTL. Stud [190764]
+    400006: Basic Wall Exterior - Brick and CMU on MTL. Stud [190765]
+    400008: Camera001
+    400010: Camera002
+    400012: Camera003
+    400014: Camera004
+    400016: Clinton IV Stand 5 leg PORTABLE [188307]
+    400018: Compass001
+    400020: Daylight001
+    400022: Floor Floor - Vinyl 1 [181833]
+    400024: Floor Floor - Vinyl 2 [181864]
+    400026: Floor Wood Joist 10" - Ceramic Tile [181732]
+    400028: //RootNode
+    400030: Project 3.rvt
+    400032: S0000000042F7F740_0
+    400034: S0000000042F7F7A8_0
+    400036: S0000000042F7FA80_0
+    400038: S0000000042F7FC88_0
+    400040: S0000000042F7FD58_0
+    400042: S0000000042F7FDC0_0
+    400044: S0000000042F7FFC8_0
+    400046: S0000000042F80030_0
+    400048: S0000000042F80098_0
+    400050: S0000000042F80238_0
+    400052: S0000000042F80370_0
+    400054: S0000000042F803D8_0
+    400056: Sky002
+    400058: Sun002
+    400060: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    400062: UMF SS8350 Bucket Only 13qt UMF SS8350 Bucket Only 13qt [186915]
+    400064: UMF SS8350 Bucket UMF SS8350 Bucket [185336]
+    2000000: Camera001
+    2000002: Camera002
+    2000004: Camera003
+    2000006: Camera004
+    2100000: Clinton IV Pole - Black Plastic
+    2100002: Metal - Chrome
+    2100004: Plastic IV Bag
+    2100006: Metal - Knurled Stainless Steel
+    2100008: Clinton IV Pole - Charcoal Plastic
+    2100010: No Name
+    2100012: Generic
+    2100014: Black Rubber Wheel
+    2100016: UMF - Blue Kick Plate
+    2100018: Structure, Wood Joist_Rafter Layer
+    2100020: Vinyl Composition Tile(blue)
+    2100022: Vinyl Composition Tile
+    2100024: Tile, Mosaic, Gray
+    2100026: Concrete Masonry Units
+    2100028: Brick, Common
+    2100030: Gypsum Wall Board
+    2100032: Default Wall
+    2300000: Basic Wall Exterior - Brick and CMU on MTL. Stud [190762]
+    2300002: Basic Wall Exterior - Brick and CMU on MTL. Stud [190763]
+    2300004: Basic Wall Exterior - Brick and CMU on MTL. Stud [190764]
+    2300006: Basic Wall Exterior - Brick and CMU on MTL. Stud [190765]
+    2300008: Clinton IV Stand 5 leg PORTABLE [188307]
+    2300010: Floor Floor - Vinyl 1 [181833]
+    2300012: Floor Floor - Vinyl 2 [181864]
+    2300014: Floor Wood Joist 10" - Ceramic Tile [181732]
+    2300016: S0000000042F7F740_0
+    2300018: S0000000042F7F7A8_0
+    2300020: S0000000042F7FA80_0
+    2300022: S0000000042F7FC88_0
+    2300024: S0000000042F7FD58_0
+    2300026: S0000000042F7FDC0_0
+    2300028: S0000000042F7FFC8_0
+    2300030: S0000000042F80030_0
+    2300032: S0000000042F80098_0
+    2300034: S0000000042F80238_0
+    2300036: S0000000042F80370_0
+    2300038: S0000000042F803D8_0
+    2300040: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    2300042: UMF SS8350 Bucket Only 13qt UMF SS8350 Bucket Only 13qt [186915]
+    2300044: UMF SS8350 Bucket UMF SS8350 Bucket [185336]
+    3300000: Basic Wall Exterior - Brick and CMU on MTL. Stud [190762]
+    3300002: Basic Wall Exterior - Brick and CMU on MTL. Stud [190763]
+    3300004: Basic Wall Exterior - Brick and CMU on MTL. Stud [190764]
+    3300006: Basic Wall Exterior - Brick and CMU on MTL. Stud [190765]
+    3300008: Clinton IV Stand 5 leg PORTABLE [188307]
+    3300010: Floor Floor - Vinyl 1 [181833]
+    3300012: Floor Floor - Vinyl 2 [181864]
+    3300014: Floor Wood Joist 10" - Ceramic Tile [181732]
+    3300016: S0000000042F7F740_0
+    3300018: S0000000042F7F7A8_0
+    3300020: S0000000042F7FA80_0
+    3300022: S0000000042F7FC88_0
+    3300024: S0000000042F7FD58_0
+    3300026: S0000000042F7FDC0_0
+    3300028: S0000000042F7FFC8_0
+    3300030: S0000000042F80030_0
+    3300032: S0000000042F80098_0
+    3300034: S0000000042F80238_0
+    3300036: S0000000042F80370_0
+    3300038: S0000000042F803D8_0
+    3300040: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    3300042: UMF SS8350 Bucket Only 13qt UMF SS8350 Bucket Only 13qt [186915]
+    3300044: UMF SS8350 Bucket UMF SS8350 Bucket [185336]
+    4300000: Clinton IV Stand 5 leg PORTABLE [188307]
+    4300002: UMF SS8350 Bucket Only 13qt UMF SS8350 Bucket Only 13qt [186915]
+    4300004: UMF SS8350 Bucket UMF SS8350 Bucket [185336]
+    4300006: UMF SS8350 Bucket 13qt UMF SS8350 Bucket 13qt [183708]
+    4300008: Floor Floor - Vinyl 2 [181864]
+    4300010: Floor Floor - Vinyl 1 [181833]
+    4300012: Floor Wood Joist 10" - Ceramic Tile [181732]
+    4300014: Basic Wall Exterior - Brick and CMU on MTL. Stud [190762]
+    4300016: S0000000042F7FA80_0
+    4300018: S0000000042F7F7A8_0
+    4300020: S0000000042F7F740_0
+    4300022: Basic Wall Exterior - Brick and CMU on MTL. Stud [190763]
+    4300024: S0000000042F7FDC0_0
+    4300026: S0000000042F7FD58_0
+    4300028: S0000000042F7FC88_0
+    4300030: Basic Wall Exterior - Brick and CMU on MTL. Stud [190764]
+    4300032: S0000000042F80098_0
+    4300034: S0000000042F80030_0
+    4300036: S0000000042F7FFC8_0
+    4300038: Basic Wall Exterior - Brick and CMU on MTL. Stud [190765]
+    4300040: S0000000042F803D8_0
+    4300042: S0000000042F80370_0
+    4300044: S0000000042F80238_0
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Sky002
+    10800002: Sun002
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
