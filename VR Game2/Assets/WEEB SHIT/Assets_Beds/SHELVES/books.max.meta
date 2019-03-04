@@ -3,6 +3,51 @@ guid: 6bb318b34f2718b478b963cbf5ebd6a0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: Book01
+    100002: Book02
+    100004: Book03
+    100006: //RootNode
+    100008: lamp_prof_path
+    100010: lamp_profile
+    100012: Specs_leg path
+    100014: Specs_leg prof01
+    100016: Specs_leg prof02
+    100018: Specs_leg prof03
+    100020: Specs_leg prof04
+    100022: Specs_leg prof05
+    100024: Specs_leg prof06
+    100026: Specs_leg profiles
+    100028: Specs_nosepiece holder path
+    100030: Specs_nosepiece holder prof
+    100032: window_fr_prof
+    400000: Book01
+    400002: Book02
+    400004: Book03
+    400006: //RootNode
+    400008: lamp_prof_path
+    400010: lamp_profile
+    400012: Specs_leg path
+    400014: Specs_leg prof01
+    400016: Specs_leg prof02
+    400018: Specs_leg prof03
+    400020: Specs_leg prof04
+    400022: Specs_leg prof05
+    400024: Specs_leg prof06
+    400026: Specs_leg profiles
+    400028: Specs_nosepiece holder path
+    400030: Specs_nosepiece holder prof
+    400032: window_fr_prof
+    2100000: No Name
+    2300000: Book01
+    2300002: Book02
+    2300004: Book03
+    3300000: Book01
+    3300002: Book02
+    3300004: Book03
+    4300000: Book01
+    4300002: Book03
+    4300004: Book02
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -38,6 +83,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -56,12 +102,15 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
