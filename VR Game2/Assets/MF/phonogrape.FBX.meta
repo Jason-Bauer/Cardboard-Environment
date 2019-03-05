@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 4fc5c202067d3654bbd11c30a9dcebdc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ' gc'
+    100002: Circle001 g
+    100004: gramofon  ruchka
+    100006: gramofon box
+    100008: 'gramofon nijnaya trubka '
+    100010: gramofon plastinka
+    100012: gramofon plintus
+    100014: gramofon plintus 2
+    100016: gramofon rupor
+    100018: 'gramofon verxnaya trubka '
+    100020: gramofon xr denal 1
+    100022: gramofon xr denal 2
+    100024: Object002 g
+    100026: Object003 g
+    100028: Particle View 01
+    100030: //RootNode
+    100032: Plane001 g
+    400000: ' gc'
+    400002: Circle001 g
+    400004: gramofon  ruchka
+    400006: gramofon box
+    400008: 'gramofon nijnaya trubka '
+    400010: gramofon plastinka
+    400012: gramofon plintus
+    400014: gramofon plintus 2
+    400016: gramofon rupor
+    400018: 'gramofon verxnaya trubka '
+    400020: gramofon xr denal 1
+    400022: gramofon xr denal 2
+    400024: Object002 g
+    400026: Object003 g
+    400028: Particle View 01
+    400030: //RootNode
+    400032: Plane001 g
+    2100000: h-21
+    2100002: chrom
+    2100004: MetalLatunObject
+    2100006: 15 - Default
+    2100008: wr
+    2100010: logo
+    2100012: 06 - VRay Material
+    2300000: ' gc'
+    2300002: Circle001 g
+    2300004: gramofon  ruchka
+    2300006: gramofon box
+    2300008: 'gramofon nijnaya trubka '
+    2300010: gramofon plastinka
+    2300012: gramofon plintus
+    2300014: gramofon plintus 2
+    2300016: gramofon rupor
+    2300018: 'gramofon verxnaya trubka '
+    2300020: gramofon xr denal 1
+    2300022: gramofon xr denal 2
+    2300024: Object002 g
+    2300026: Object003 g
+    2300028: Plane001 g
+    3300000: ' gc'
+    3300002: Circle001 g
+    3300004: gramofon  ruchka
+    3300006: gramofon box
+    3300008: 'gramofon nijnaya trubka '
+    3300010: gramofon plastinka
+    3300012: gramofon plintus
+    3300014: gramofon plintus 2
+    3300016: gramofon rupor
+    3300018: 'gramofon verxnaya trubka '
+    3300020: gramofon xr denal 1
+    3300022: gramofon xr denal 2
+    3300024: Object002 g
+    3300026: Object003 g
+    3300028: Plane001 g
+    4300000: gramofon plintus 2
+    4300002: 'gramofon nijnaya trubka '
+    4300004: gramofon plintus
+    4300006: gramofon rupor
+    4300008: ' gc'
+    4300010: 'gramofon verxnaya trubka '
+    4300012: gramofon box
+    4300014: Circle001 g
+    4300016: gramofon xr denal 2
+    4300018: gramofon plastinka
+    4300020: gramofon  ruchka
+    4300022: Plane001 g
+    4300024: gramofon xr denal 1
+    4300026: Object003 g
+    4300028: Object002 g
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
