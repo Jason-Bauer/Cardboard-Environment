@@ -7,7 +7,16 @@ public class GM : MonoBehaviour {
     public GameObject InventoryPanel;
     // public Text UIText;
     //public bool textchanged = false;
+
+    //Tutorial Items
     public bool hasKey = false;
+
+    //Horror Items
+    public bool horrorLockerKey = false;
+    public bool horrorGloves = false;
+    public bool horrorScalpel = false;
+    public bool horrorEscapeKey = false;
+
     // Use this for initialization
     void Start()
     {
@@ -19,8 +28,29 @@ public class GM : MonoBehaviour {
     {
 
     }
+
+    //tutorial
     public void setkey(bool set)
     {
         hasKey = set;
+    }
+
+    public void setHorrorLockerKey(bool set)
+    {
+        horrorLockerKey = set;
+    }
+
+    public void setHorrorGloves (bool set)
+    {
+        horrorGloves = set;
+    }
+
+    public void setHorrorScalpel (bool set)
+    {
+        horrorScalpel = set;
+    }
+    public void setHorrorEscapeKey(bool set)
+    {
+        horrorEscapeKey = set;
     }
 }
