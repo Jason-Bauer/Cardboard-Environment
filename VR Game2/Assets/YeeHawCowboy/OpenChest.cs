@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class OpenChest : MonoBehaviour
 {
+    public GameObject manager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,9 @@ public class OpenChest : MonoBehaviour
 
     public void ChestOpen()
     {
-        GetComponent<Animator>().Play("TreasureChest_OPEN", 0,0.0f);
+        if (manager.GetComponent<PuzzleManager>().hasBullets)
+        {
+            GetComponent<Animator>().Play("TreasureChest_OPEN", 0, 0.0f);
+        }
     }
 }
