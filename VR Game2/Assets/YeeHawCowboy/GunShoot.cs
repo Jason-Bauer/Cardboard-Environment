@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GunShoot : MonoBehaviour
 {
+    public GameObject manager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +20,9 @@ public class GunShoot : MonoBehaviour
 
     public void Shoot()
     {
-        GetComponent<Animation>().Play();
-        GetComponentInChildren<ParticleSystem>().Play();
+        if (manager.GetComponent<PuzzleManager>().hasBullets) {
+            GetComponent<Animation>().Play();
+            GetComponentInChildren<ParticleSystem>().Play();
+        }
     }
 }
