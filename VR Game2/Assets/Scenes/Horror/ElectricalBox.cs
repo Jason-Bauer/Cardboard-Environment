@@ -16,8 +16,9 @@ public class ElectricalBox : MonoBehaviour
 
             gm.GetComponent<GM>().horrorGloves = false;
             door.GetComponent<Animator>().SetBool("DoorOpen", true);
+            door.GetComponent<AudioSource>().Play();
             light.GetComponentInChildren<Light>().enabled = false;
-            
+            light.GetComponentInChildren<AudioSource>().Stop();
 
         }
     }

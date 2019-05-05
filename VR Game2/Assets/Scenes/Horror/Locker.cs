@@ -13,7 +13,8 @@ public class Locker : MonoBehaviour
         {
             
             gm.GetComponent<GM>().horrorLockerKey = false;
-            gameObject.GetComponentInChildren<Animation>().enabled = true;
+            gameObject.GetComponentInChildren<Animation>().Play();
+            gameObject.GetComponentInChildren<AudioSource>().Play();
             //player.GetComponent<GM>().hasGen = false;
 
 
