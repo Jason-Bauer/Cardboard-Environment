@@ -9,6 +9,9 @@ public class weebPuzzle : MonoBehaviour
     public bool hasRed = false;
     public bool hasGreen = false;
     public bool hasBlue = false;
+    public bool hasKatana = false;
+    public bool hasBroadsword = false;
+    public bool hasLongsword = false;
 
     public bool poster = false;
 
@@ -23,7 +26,7 @@ public class weebPuzzle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(hasYellow==true && hasRed==true&&hasBlue==true&&hasGreen==true&&poster==true)
+        if(hasYellow==true && hasRed==true&&hasBlue==true&&hasGreen==true&&poster==true&& hasKatana == true && hasBroadsword == true && hasLongsword == true)
         {
             GameObject.Find("Laptop_Off").active = false;
             hasYellow = false;
@@ -60,5 +63,18 @@ public class weebPuzzle : MonoBehaviour
         hasKey = true;
     }
 
+    public void haskatana()
+    {
+        hasKatana = true;
+    }
 
+    public void hasbroadsword()
+    {
+        hasBroadsword = true;
+    }
+
+    public void haslongsword()
+    {
+        hasLongsword = true;
+    }
 }
